@@ -1,0 +1,64 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, green, red);
+    color: antiquewhite;
+}
+.contenedor{
+    width: 95%;
+    margin: 0px auto;
+    /* Diseño para utilizar flex-box*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    align-content: center;
+}
+.caja{
+    width: 33%;
+    height: 300px;
+}
+.adicional{
+    width: 49.6%;
+}
+p{
+    padding: 5px 10px;
+    text-align: justify;
+}
+.navegador{
+    background: black;
+    width: 98%;
+    border: 1px wheat solid;
+    text-align: right;
+}
+.navegador li{
+    display: inline-block;
+}
+.navegador li a{
+    color: aqua;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.navegador li a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.cabecera{
+    width: 98%;
+    height: 300px;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+h1{
+    font-family: Verdana;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 30px;
+}
+
+h3{
+    font-family: cursive;
+    font-size: 2em;
+}

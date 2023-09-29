@@ -1,0 +1,84 @@
+/* Selector universal */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right,rgb(91, 15, 15),  #232370 );
+    color: whitesmoke;
+}
+#contenedor{
+    width: 90%;
+    margin: 5px auto;
+    background-image: url('../images/logo.jpg');
+    background-size: 200px 100px ;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+#cabecera{
+    height: 60px;
+    background: black;
+    width: 90%;
+    position: fixed;
+}
+#logo{
+    float: left;
+    width: 20%;
+    padding: 5px;
+    line-height: 60px;
+}
+#navegador{
+    float: right;
+    width: 75%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+    text-align: right;
+    line-height: 60px;
+}
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+#main{
+    clear: both;
+    margin-top: 10px;
+}
+h2,h3,h4{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8em;
+}
+p{
+    padding: 5px 20px;
+    text-align: justify;
+    color: antiquewhite;
+}
+p.segundo{
+    border: 1px silver solid;
+    border-radius: 80px 80px;
+    color: azure;
+}
+.avatar{
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 50px;
+}
+.imagenes{
+    text-align: center;
+    font-family: cursive;
+    font-size: 1em;
+}
+#servicios{
+    margin-top: 20px;
+}

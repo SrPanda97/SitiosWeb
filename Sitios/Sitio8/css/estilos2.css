@@ -1,0 +1,101 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to left,gray,white);
+}
+.contenedor{
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fondo{
+    width: 100%;
+    background-image: url(../imgs/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    width: 20%;
+    text-align: left;
+}
+.enlaces{
+    width: 50%;
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+}
+h3{
+    font-size: 1.7em;
+}
+.botones{
+    width: 27%;
+    text-align: right;
+    margin-right: 10px;
+}
+.enlaces li{
+    display: inline-block;
+}
+.enlaces li a{
+    color: rgb(69, 145, 145);
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.enlaces li a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.cajas{
+    width: 22%;
+    text-align: justify;
+    margin: 5px;
+}
+.cajas h2{
+    text-align: center;
+    font-size: 1.8em
+}
+.cajas img{
+    margin-left: 60px;
+    border-radius: 30px;
+}
+.centro{
+    width: 50%;
+    text-align: justify;
+}
+.centro h2{
+    text-align: center;
+    font-size: 1.8em
+}
+.img1{
+    width: 47%;
+    margin: 10px;
+}
+.img2{
+    width: 47%;
+    margin: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+.cajones{
+    width: 48%;
+}
+.cajones h2{
+    text-align: center;
+}
+.cajones p{
+    text-align: justify;
+    margin: 5px;
+}
+.formulario{
+    width: 48%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1em;
+}
+.formulario label{
+    margin-top: 10px;
+
+}
